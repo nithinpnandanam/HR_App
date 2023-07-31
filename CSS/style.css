@@ -1,0 +1,316 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background-color:#D4EAC8 ;
+}
+h1{
+    text-align: center;
+    padding-bottom: 31px;
+    color: #357266;
+    font-size: 3rem;
+}
+/* Style for navigation container */
+p{
+    margin: 0px;
+}
+#nav_container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#sort_filter{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    color:whitesmoke ;
+}
+#s_f_div1 label,#s_f_div2 label{
+    padding-right: 10px;
+}
+#s_f_div2 {
+    margin-top: 2.5px;
+}
+
+#sort_label,#filter_search{
+    border-radius: 4px;
+    width: 200px;
+    background-color: #357266;
+    color: #fff;
+}
+#sort_label{
+    height: 45px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+#filter_search{
+    height: 15px;
+    font-size: 13px;
+    margin-top: 1px;
+}
+#filter_search::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+#add_employee_div{
+    /* background-color: #3A606E; */
+    justify-content: space-between;
+    width: 10%;
+    padding: 9px 9px 0px 9px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color:whitesmoke ;
+    font-size: 1.2em;
+    margin: 5px 0px 4px 0px
+}
+
+
+#add_employee_div button{
+    border-radius: 5px;
+    background-color: #357266;
+    color: white;
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 9px 5px 9px 5px;
+    font-size: 18px;
+}
+
+button:hover,i:hover{
+    cursor: pointer;
+}
+/* Style for initail table view */
+
+#main_table{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#table_head{
+    width: 80%;
+}
+th{
+    background-color:#357266;
+    color: white;
+    border: 1px solid whitesmoke;
+    padding:16px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+#empIDhead{
+    padding: 0px;
+}
+td{
+    background-color:rgb(151,189,98);
+    opacity: .9;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.right-align{
+    text-align: right;
+    padding-right: 40px;
+}
+.allSkillBtnStyle{
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-right: 3px;
+    margin-left: 5px;
+    
+}
+.allSkillBtnStyle:hover{
+    cursor:default;
+}
+.skill_button{
+    margin-top: 11px;
+    margin-left: 4px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.inline_prop{
+    display: inline;
+}
+#skills,#skills_new{
+    padding: 5px 0px 5px 15px;
+    outline: none;
+}
+#skills{
+    margin-top:10px;
+    padding-left:13px;
+}
+#skills_new{
+    display: block;
+}
+#outer_skill_div_v{
+    background-color: white;
+}
+/* Styles common for all the modal boxes */
+#modal_box_add,#modal_box_edit,#modal_box_delete,#modal_box_view{
+    display: none;
+    margin: 0 auto;
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top: -67px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); 
+}
+#modal_box_edit{
+    padding-bottom: 50px;
+    overflow: scroll;
+}
+#modal_table{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:#D4EAC8 ;
+    position: relative;
+}
+#add_cross,#view_cross,#edit_cross{
+    position :absolute;
+    font-size: .8em;
+    font-weight: 600;
+    top:-30px;
+    right: 0px;
+}
+#caption{
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+#caption td{
+    text-align: center;
+    background-color: #214E34;
+    color: white;
+    padding: 15px;
+    opacity: .9;
+}
+.col_1{
+    background-color:darkolivegreen;
+    opacity: .8;
+    font-weight: 600;
+    padding: 14px 0px 14px 24px;
+    width: 20%;
+    padding-left: 24px;
+}
+.col_2{
+    width:22%;
+    padding: 0px;
+}
+input[type="text"],input[type="email"],input[type="date"]{
+    width: 97%;
+    border: none;
+    padding: 13px 0px 16px 15px;
+    font-size: 16px;
+}
+#skill_row{
+    height: 55px;
+}
+.common_skill_row{
+    height:75px;
+}
+#outer_skill_div,#outer_skill_div_new{
+    background-color: white;
+}
+#submit_btn_div,#edit_btn_div{
+    text-align: center; 
+    padding: 11px 11px 16px 11px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #D4EAC8;
+    margin: 0 auto;
+    width: 58.3%;
+    margin-bottom: 75px;
+
+}
+#submit_btn_div div,#edit_btn_div div{
+    display: flex;
+    justify-content: space-around;
+    width: 230px;
+    margin: 0 auto;
+}
+#submit_btn_div button,#edit_btn_div button{
+    color: whitesmoke;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+#edit_close,#add_close{
+    background-color: dimgrey;
+}
+#submit_btn,#edit_btn{
+    background-color: #214E34;
+}
+.span_data{
+    border: 1px solid black;
+}
+
+/* Style for Modal box for delete Confirmation */
+
+#modal_box_delete{
+    padding-top: 160px;
+    background-color: rgba(0,0,0,0.72); 
+}
+#delete_msg_div{
+    background-color:rgb(151,189,98);  
+    width: 38%;
+    margin: 0 auto;
+    padding: 25px 10px 40px 20px;
+    position: relative;
+    border-radius: 5px;  
+    color: black;
+}
+#delete_cross{
+    font-size: 1.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+#delete_msg_div p{
+    padding: 20px 0px 50px 0px;
+    font-size: 1.4rem;  
+}
+#delete_msg_div button{
+    font-size: 1em;
+    padding: 5px 31px;
+    border-radius: 5px;
+}
+#no{
+    margin-right: 70px;
+}
+#yes:hover{
+    margin-right: 70px;
+    background-color: red;
+    color: white;
+}
+#no:hover{
+    background-color: #0f8d43;
+    color: white;
+}
+.span_data {
+    padding: 4px;
+}
+.fa-xmark{
+    padding-left: 7px;
+}
+
+#inner_skill_div,#inner_skill_div_new{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}

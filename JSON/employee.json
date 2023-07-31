@@ -1,0 +1,117 @@
+{
+    "details":[
+        {
+            "employee_id":105,
+            "name":"Joey",
+            "DOB":"01/06/1988",
+            "Age":32,
+            "DOJ":"01/06/1998",
+            "email_id":"joey@abc.com",
+            "experiance":"10+ years ",
+            "designation":"Product Owner",
+            "skills":["Azure","JavaScript","AWS"],
+            "contact_details":["3960 Portola Dr","Santa Cruz","California","Pin : 692357"]
+        },
+        {
+            "employee_id":102,
+            "name":"Rachel",
+            "DOB":"14/07/1990",
+            "Age":36,
+            "DOJ":"14/07/2000",
+            "email_id":"rachel@abc.com",
+            "experiance":"9+ years ",
+            "designation":"Senior Architect",
+            "skills":["JavaScript","AWS"],
+            "contact_details":["3960 Portola Dr","Santa Cruz","California","Pin : 692357"]
+        },
+        {
+            "employee_id":103,
+            "name":"Chandler",
+            "DOB":"25/01/1992",
+            "Age":30,
+            "DOJ":"25/01/2002",
+            "email_id":"chandler@abc.com",
+            "experiance":"8+ years ",
+            "designation":"Project Manager",
+            "skills":["Linux","Firebase"],
+            "contact_details":["3960 Portola Dr","Santa Cruz","California","Pin : 692357"]
+        },
+        {
+            "employee_id":104,
+            "name":"Ross",
+            "DOB":"05/04/1994",
+            "Age":27,
+            "DOJ":"05/04/2004",
+            "email_id":"ross@abc.com",
+            "experiance":"7+ years ",
+            "designation":"Associate Architect",
+            "skills":["GraphQL","Linux"],
+            "contact_details":["3960 Portola Dr","Santa Cruz","California","Pin : 692357"]
+        },
+        {
+            "employee_id":101,
+            "name":"Monica",
+            "DOB":"15/10/1996",
+            "Age":38,
+            "DOJ":"15/10/2006",
+            "email_id":"monica@abc.com",
+            "experiance":"6+ years ",
+            "designation":"DevOps Lead",
+            "skills":["Node","GraphQL"],
+            "contact_details":["3960 Portola Dr","Santa Cruz","California","Pin : 692357"]
+        }
+    ],
+    "skill_info":[
+        {       
+        "skill_id":1,
+        "skill":"Go"
+        },
+        {       
+        "skill_id":2,
+        "skill":"GraphQL"
+        },
+        {       
+        "skill_id":3,
+        "skill":"JavaScript"
+        },
+        {       
+        "skill_id":4,
+        "skill":"React"
+        },
+        {       
+        "skill_id":5,
+        "skill":"Node"
+        },
+        {       
+        "skill_id":6,
+        "skill":"AWS"
+        },
+        {       
+        "skill_id":7,
+        "skill":"TypeScript"
+        },
+        {       
+        "skill_id":8,
+        "skill":"Azure"
+        },
+        {       
+        "skill_id":9,
+        "skill":"Firebase"
+        },
+        {       
+        "skill_id":10,
+        "skill":"Linux"
+        },
+        {       
+        "skill_id":11,
+        "skill":"Java"
+        },
+    
+        {       
+        "skill_id":12,
+        "skill":"Python"
+        }
+       
+    ]
+}
+
